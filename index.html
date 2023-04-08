@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        
+        <div>
+            <h1>Please fill your information</h1>
+        </div>
+        <div class="container" >
+        <div class="intro" >
+            <label for="name">Your Full Name</label>
+            <input id="name" type="text" name="name" placeholder="Sanjaya Elvitigala">
+        </div>
+        <div class="dob">
+            <label for="birth">Date of Birth</label><br>
+            <select name="day" id="day">
+                <option value="04">04</option>
+                <option value="" selected>Day</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+            <select name="month" id="month" >
+                <option value="">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+            </select>
+            <select name="year" id="year">
+                <option value="">Year</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+            </select>
+        </div>
+    </div>
+        <br>
+        <div class="container">
+        <div class="row">
+        <div class="tax">
+            <input type="radio" id="taxid" name="taxid" value="taxid">
+            <label for="taxid">Tax ID</label>
+            <input type="radio" id="socialbtn" name="socialbtn" value="socialbtn">
+            <label for="socialsnumber">Social Security Number</label>&nbsp;&nbsp;
+            <input type="number" id="socialnumber" name="socialnumber" pattern="[0-9]{9}" required placeholder="9 Digit Number">
+        </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="info">
+            <label for="citizenship">Citizenship</label><br>
+            <select name="citizenship" id="citizenship">
+                <option value="us_citizen">US Citizen</option>
+                <option value="uk_citizen">UK Citizen</option>
+                <option value="europe">Europe</option>
+                <option value="middleast">Middle East</option>
+                <option value="asia">Asia</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br>
+            <label for="country">Country</label><br>
+            <select name="country" id="country">
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+            </select>
+        </div>
+        <br>
+    <div class="phone">
+    <div class="phone1">
+        <label for="day_phone">Day Phone</label><br>
+        <input id="day_phone" type="tel" placeholder="(xxx) xxx-xxxx">
+        
+    </div>
+    <div class="phone2">
+        <label for="evening_phone">Evening Phone</label><br>
+        <input id="evening_phone" type="tel" placeholder="(xxx) xxx-xxxx">
+        </div>
+    </div>
+    <br>
+    <div class="address">
+        <label for="address1">Address Line 1</label><br>
+        <input id="address1" type="text" name="address1"><br>
+        <label for="address2">Address Line 2</label><br>
+        <input id="address2" type="text" name="address2">
+    </div>
+   <br>
+    <div class="location">
+        
+        <label for="city">City</label><br>
+        <input id="city" type="text" name="city">
+        <br>    
+        <label for="state">State</label><br>
+        <select name="state" id="state">
+            <option value=""></option>
+            <option value="alabama">Alabama</option>
+            <option value="arkansas">Arkansas</option>
+        </select>
+    <br>
+        <label for="zipcode">Zip Code</label><br>
+        <input id="zipcode" type="number" name="zipcode" placeholder="10520">
+    </div>
+</div>
+<br>
+    <div class="container">
+        <input type="radio" id="radio" name="radio" value="radio">
+        <label for="withhold">Subject to backup withholding</label>
+        <input type="radio" id ="radio" name="radio" value="radio" >
+        <label for="reinvested">I want to reinvested my dividents</label>
+    </div>
+    <br>
+    <div class="btn">
+        <input id="continue" type="submit" value="Continue">
+        <input id="reset"type="reset" value="Reset">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{font-family: 'Poppins', sans-serif;}
+ h1{
+    text-align: center;
+ }
+ form{
+    max-width: 800px;
+    
+ }
+ /* div {
+    display: flex;
+    justify-content: center;
+  } */
+ 
+.container{
+    background-color: rgb(235, 235, 235);
+    width: 80%;
+    border: 10px;
+    padding: 20px;
+    border-radius: 5px;  
+}
+label{
+      font-size: 100%;
+      font-weight: 15%;
+}
+#name{
+    width: 100%;
+    
+}
+#day{
+    width: 25%;
+}
+#month{
+    width: 25%;
+}
+#year{
+    width: 40%;
+}
+#socialnumber{
+    width: 50%;
+}
+.info{
+ columns: 2;
+}
+.phone{
+    columns: auto 20em;
+}
+
+.address{
+    columns:auto 2;
+}
+.location{
+    columns: 3;
+}
+#city{
+    width: 100%;
+}
+#state{
+    width:100% ;
+}
+#zipcode{
+    width: 100%;
+}
+
+.btn{
+    text-align: center;
+   
+}
+#continue{
+    color: rgb(255, 255, 255);
+    background-color: #8a2be2;
+    padding: 8px 50px 8px 50px;
+    border-radius: 5px;
+}
+#reset{
+    padding: 8px 50px 8px 50px;
+    border-radius: 5px; 
+}
